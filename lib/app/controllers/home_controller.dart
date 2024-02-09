@@ -25,6 +25,5 @@ class HomeController extends GetxController {
 
   void initGame() {
     cards_list.shuffle(); // Barajea los elementos de la lista
-    gameImg = List.generate(cardCount, (index) => hiddenCardpath);
   }
 }
